@@ -131,7 +131,7 @@ function App() {
             </p>
             <div className="hero-actions">
               <a className="btn primary" href="#projects">View my work <FiArrowUpRight /></a>
-              <a className="btn secondary" href="/assets/Devi-Bala-V-Resume.pdf" download>Download resume <FiDownload /></a>
+              <a className="btn secondary" href={`${import.meta.env.BASE_URL}assets/Devi-Bala-V-Resume.pdf`} download>Download resume <FiDownload /></a>
             </div>
             <div className="hero-meta">
               <span><FiMapPin /> Chennai, India</span>
@@ -143,7 +143,7 @@ function App() {
             <div className="glow" />
             <div className="profile-card">
               <div className="profile-image-wrap">
-                <img src="/assets/profile.jpeg" alt="Devi Bala V" className="profile-image" />
+                <img src={`${import.meta.env.BASE_URL}assets/profile.jpeg`} alt="Devi Bala V" className="profile-image" />
               </div>
               <div className="profile-caption">
                 <span>Software Developer</span>
